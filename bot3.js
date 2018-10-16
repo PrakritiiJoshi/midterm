@@ -12,7 +12,7 @@ var location;
 
 const request = require('request');
 
-let apiKey = 'b0586b1e5db592a353e53d6a43b78cf0'; 
+let apiKey = '...'; 
 let city = 'Brooklyn';
 let url = 'http://api.openweathermap.org/data/2.5/weather?q='+city+'&units=imperial&appid='+ apiKey;
 
